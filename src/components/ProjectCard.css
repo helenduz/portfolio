@@ -1,0 +1,28 @@
+.project-card {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em 1.5em;
+    padding: 1.5em 2em 1em;
+    box-shadow: var(--shadow);
+}
+
+.project-title {
+    margin: 1em 0;
+}
+
+.project-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.project-stack-item {
+    margin: 0.6em;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--clr-fg-alt);
+}

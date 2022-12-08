@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Iterative Design: AeonCharge UI",
+        "summary": "This is a project from CS1300 UIUX at Brown University. We went through the full process of mocking up a solution to a startup concept, including sketching, wireframing in Balsalmiq, and prototyping in Figma. We iteratively improved our design incorporating feedback from peer critiques and user testing.",
+        "stack": ["Figma", "Balsalmiq", "User Testing"],
+        "pathName": "/iterative"
+    },
+    {
+        "name": "Project 2",
+        "summary": "This is a project I did for some random class. Project description goes here.",
+        "stack": ["React", "Material UI"],
+        "pathName": "/"
+    },
+    {
+        "name": "Project 3",
+        "summary": "This is a project I did for some random class. Project description goes here.",
+        "stack": ["React", "Flask", "GraphQL", "SQL"],
+        "pathName": "/"
+    }
+]
