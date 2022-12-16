@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='center nav'>
       <ul className='nav__list'>
         <li className='nav__list-item'>
-            <Link to='/' className='link link--nav'>
+            <Link to='#projects' className='link link--nav'>
                 Projects
             </Link>
         </li>
