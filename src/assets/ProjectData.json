@@ -1,25 +1,25 @@
 [
     {
         "name": "Iterative Design: AeonCharge UI",
-        "summary": "This is a project from CS1300 UIUX at Brown University. We went through the full process of mocking up a solution to a startup concept, including sketching, wireframing in Balsalmiq, and prototyping in Figma. We iteratively improved our design incorporating feedback from peer critiques and user testing.",
+        "summary": "The goal of this project was to go through the full process of mocking up a solution to a startup concept, including sketching, wireframing in Balsalmiq, and prototyping in Figma. Our team iteratively improved our design incorporating feedback from peer critiques and user testing.",
         "stack": ["Figma", "Balsalmiq", "User Testing"],
         "pathName": "/iterative"
     },
     {
         "name": "Responsive Redesign: APS Publications Page",
-        "summary": "This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice redesigning a website with for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.",
+        "summary": "The goal of this project was to practice redesigning a website with for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.",
         "stack": ["Figma", "Balsalmiq", "HTML/CSS", "Bootstrap"],
         "pathName": "/redesign"
     },
     {
-        "name": "Interactive Interface Development: Spotify Top 100 Songs List",
-        "summary": "This is a project from CS1300 UIUX at Brown University. The goal of the project is to practice developing interactive interfaces using React, especially the use of components, states, and props!",
+        "name": "Interactive Interface Development: Spotify Songs List",
+        "summary": "The goal of the project was to practice developing interactive interfaces using React, especially the use of components, states, and props!",
         "stack": ["React", "HTML/CSS", "Material UI"],
         "pathName": "/development"
     },
     {
         "name": "Personas and Storyboarding: Ordering Kiosk Interface",
-        "summary": "This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice the classic UX research workflow: observe real users interacting with an interface, interview these individuals about their experiences, create personas based on these users, and illustrate a storyboard for the personas. How do you step into a user's shoes? This was the first project that got me started in thinking about usability!",
+        "summary": "The goal of this project was to practice the classic UX research workflow: observe real users interacting with an interface, interview these individuals about their experiences, create personas based on these users, and illustrate a storyboard for the personas. How do you step into a user's shoes? This was the first project that got me started in thinking about usability!",
         "stack": ["UX Research"],
         "pathName": "/personas"
     }

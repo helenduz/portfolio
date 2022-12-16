@@ -90,7 +90,12 @@
 
 .text-emphasis {
     font-weight: 500;
-    font-style: italic;
+    word-spacing: 0.08rem;
+    text-shadow: 2px 2px 4px var(--clr-primary);
+}
+
+.text-emphasis::after {
+    content: " "
 }
 
 .project-section-title {
@@ -123,7 +128,7 @@
 .full-width-img {
     margin: 3em 0;
     width: 100vw;
-    mix-blend-mode: multiply;
+    mix-blend-mode: darken;
 }
 
 .subtitle-1 {

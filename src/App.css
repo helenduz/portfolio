@@ -39,6 +39,7 @@
 
 
 /* FONTS, FONTS COLOR, BACKGROUND, LINE HEIGHT */
+/* STYLES ADAPTED FROM https://github.com/rajshekhar26/cleanfolio/blob/main/src/index.css */
 
 .app {
   font-family: 'Roboto Slab', sans-serif;
@@ -85,6 +86,7 @@ button {
 
 
 /* LAYOUT */
+/* STYLES ADAPTED FROM https://github.com/rajshekhar26/cleanfolio/blob/main/src/index.css */
 
 main {
   max-width: 1200px;
@@ -103,6 +105,7 @@ main {
 
 
 /* LINKS AND BUTTONS */
+/* STYLES ADAPTED FROM https://github.com/rajshekhar26/cleanfolio/blob/main/src/index.css */
 
 .link {
   display: block;
