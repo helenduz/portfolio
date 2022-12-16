@@ -44,7 +44,7 @@ const Development = () => {
                      <h3>
                          Project Overview
                      </h3>
-                     <p>This is a project from CS1300 UIUX at Brown University. The goal of the project is to practice developing interactive interfaces using React, especially the use of components, states, and props!</p>
+                     <p>This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice developing interactive interfaces using React, especially the use of components, states, and props!</p>
                  </div>
              </div>
  
@@ -55,15 +55,15 @@ const Development = () => {
                              The Task
                          </h3>
                      </div>
-                     <p>The crux of the assignment is a <span className='text-bold'>list</span> and an <span className='text-bold'>aggregrator</span> that is rendered on a single page.  We were asked to implement a few core functionalities that common list interfaces should have:
+                     <p>The crux of the assignment is a <span className='text-bold'>list</span> and an <span className='text-bold'>aggregrator</span> that are rendered on a single page.  We were asked to implement a few core functionalities that common list interfaces should have:
                         <ul className='text-list'>
                             <li>Filtering by certain categories</li>
                             <li>Sorting by certain order</li>
-                            <li>Item cards, including a button that adds to/remove from the aggregator</li>
+                            <li>Display item cards, including a button that adds to/remove from the aggregator</li>
                             <li>An aggregation dashboard/section: items that are added to the aggregator should be displayed, along with the aggregation property (total time, cost, votes, etc.)</li>
                         </ul>
                     <br></br>
-                    Although this seems like a trivial task, in fact many list interfaces actually share the same type of architecture! Think about a list of items for purchase in an online store and the shopping cart, or a list of recipes and a "favorites" section in a cooking app. The patterns and components used in this application can be generalized to many other interfaces with minimal changes!
+                    Although this seems like a trivial task, many list interfaces actually share the same type of architecture! Think about a list of items for purchase in an online store and the shopping cart, or a list of recipes and a "favorites" section in a cooking app. The patterns and components used in this application can be generalized to many other interfaces with minimal changes!
                      </p>
                  </div>
              </div>
@@ -79,7 +79,7 @@ const Development = () => {
                      <p>                        
                         While this wasn't the first time I was introduced to React, it was the first time I had to build a React app from scratch. The difficulties I encountered could be summarized into three main dimensions:
                         <ul className='text-list'>
-                            <li><span className='text-bold'>Architectural Challenges: </span>How should my application be structured? Which part of the application can I isolate into its own component? How should I oragnize my component files, stylesheets, and data in the project directory?</li>
+                            <li><span className='text-bold'>Architectural Challenges: </span>How should my application be structured? Which part of the application can I isolate into its own component? How should I organize my component files, stylesheets, and data in the project directory?</li>
                             <li><span className='text-bold'>React States: </span>Which states should be associated with which components? How can I pass data and callbacks around as props so that they work properly while maintaining good encapsulation?</li>
                             <li><span className='text-bold'>Styling: </span>This was my first time using Material UI and inline styling libraries! Getting used to the design thinking of Material UI (such as the type of containers available) was quite a learning curve. </li>
                             <div className='img-container'>
@@ -108,7 +108,7 @@ const Development = () => {
                         <p>What can you do here?</p>
                     </div>
                     <p>
-                    This application shows all songs in the Spotify playlist <a href='https://open.spotify.com/playlist/1EVE9kOZ2i4171hNdvWVhU' className='in-text-link'>TOP 100 Songs of 2022 (Best Hit Music Playlist)</a>. You are able to view more information about the songs in this application than on the Spotify playlist! For example, you can see the popularity of the song - a score calculated by Spotify's algorithm. In addition, you can sort and apply filters to the songs. This application also allows you to add and remove songs to a "playlist".
+                    This application shows all songs in the Spotify playlist <a href='https://open.spotify.com/playlist/1EVE9kOZ2i4171hNdvWVhU' className='in-text-link'>TOP 100 Songs of 2022 (Best Hit Music Playlist)</a>. You are able to view more information about the songs in this application than on the actual Spotify playlist! For example, you can see the popularity of the song - a score calculated by Spotify's algorithm. In addition, you can sort and apply filters to the songs. This application also allows you to add and remove songs to a "playlist".
                     </p>
 
                     <div className='project-section-title subtitle-1'>
