@@ -7,7 +7,7 @@
     },
     {
         "name": "Responsive Redesign: APS Publications Page",
-        "summary": "The goal of this project was to practice redesigning a website with for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.",
+        "summary": "The goal of this project was to practice redesigning a website for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.",
         "stack": ["Figma", "Balsalmiq", "HTML/CSS", "Bootstrap"],
         "pathName": "/redesign"
     },

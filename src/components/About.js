@@ -1,6 +1,6 @@
 import './About.css';
 
-// This component draws inspiration from https://github.com/rajshekhar26/cleanfolio/tree/main/src/components/ProjectContainer
+// This component draws inspiration from https://github.com/rajshekhar26/cleanfolio/tree/main/src/components/
 const About = () => {
     return (
         <div className="about-main">

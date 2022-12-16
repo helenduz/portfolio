@@ -43,7 +43,7 @@ const Redesign = () => {
                     <h3>
                         Project Overview
                     </h3>
-                    <p>This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice redesigning a website with for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.</p>
+                    <p>This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice redesigning a website for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.</p>
                 </div>
             </div>
 
@@ -173,7 +173,7 @@ const Redesign = () => {
                         </h3>
                     </div>
                     <p>
-                        Finally, I created the reponsive website according to my high-fidelity prototypes. Since we were limited to only HTML and CSS libraries in this project, some interative elements are not implemented, such as the expanded hamburger menu. Throughout this project, I have learned how to always keep responsiveness in mind when designing websites, as well as applying usability principles I learned in class to real-world designs. Here are a few things that I am hoping to expand on or finish implementing later:
+                        Finally, I created the <a href="https://nostalgicalpaca202.github.io/redesign" className='in-text-link'>responsive website</a> according to my high-fidelity prototypes. Since we were limited to only HTML and CSS libraries in this project, some interative elements are not implemented, such as the expanded hamburger menu. Throughout this project, I have learned how to always keep responsiveness in mind when designing websites, as well as applying usability principles I learned in class to real-world designs. Here are a few things that I am hoping to expand on or finish implementing later:
                         <ul className='text-list'>
                             <li>Make font sizes more responsive - currently, the content in the top pane gets really crowded once we are near the md breakpoint (before the navigation bar, search bar, and other buttons get minimized to the hamburger menu), and overflow/clipping happens</li>
                             <li>Change the accordion's color to match the theme colors - this requires changing SaSS variables in Bootstrap</li>

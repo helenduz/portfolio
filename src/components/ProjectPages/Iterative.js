@@ -44,7 +44,7 @@ const Iterative = () => {
                     <h3>
                         Project Overview
                     </h3>
-                    <p>This is a project from CS1300 UIUX at Brown University. We went through the full process of mocking up a solution to a startup concept, including sketching, wireframing in Balsalmiq, and prototyping in Figma. We iteratively improved our design incorporating feedback from peer critiques and user testing.</p>
+                    <p>This is a project from CS1300 UIUX at Brown University. The goal of this project was to go through the full process of mocking up a solution to a startup concept, including sketching, wireframing in Balsalmiq, and prototyping in Figma. Our team iteratively improved our design incorporating feedback from peer critiques and user testing.</p>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ const Iterative = () => {
                         </h3>
                     </div>
                     <p>
-                        Before we began desigining, we asked ourselves what are the most crucial functionalities that the AeonCharge app should have. Apart from the <span className='text-emphasis'>'Locate, Activate, Pay'</span> core workflow, we also noticed that AeonCharge was founded on the frustration in the EV drivers community that different charging networks have different platforms for activating and paying - you need to switch between apps to look for a station and finish the charging operations, as well as manage a bunch of different accounts and membership discounts. Therefore, our core objective is to make sure that the different networks are well integrated into one coherent platform.</p>
+                        Before we began desigining, we asked ourselves what are the most crucial functionalities that AeonCharge should have. Apart from the <span className='text-emphasis'>'Locate, Activate, Pay'</span> core workflow, we also noticed that AeonCharge was founded on the frustration in the EV drivers community that different charging networks have different platforms for activating and paying - you need to switch between apps to look for a station and finish the charging operations, as well as manage a bunch of different accounts and membership discounts. Therefore, our core objective is to make sure that the different networks are well integrated into one coherent platform.</p>
                     <p>
                         After forming a concensus on the core objective and functionalities, we individually brainstormed a set of screens that we think are important to the app, and sketched our ideas on paper:
                     </p>
@@ -126,7 +126,7 @@ const Iterative = () => {
                         <p>Summary</p>
                     </div>
 
-                    <p>We then submitted our prototypes to UserTesting.com for three different users. We found that the user experience was mostly what we expected - the general flow and appearance of our app resemble many other types of map-based apps like Uber or Google Maps, which helps the users figure out how to user the map by common sense. But there were some confusion in the beginning because the users were not familiar with interacting with Figma prototypes. In addition, users had to test our mobile app on a desktop, which can cause some confusion!
+                    <p>We then submitted our prototypes to UserTesting.com for three different users. We found that the user experience was mostly what we expected - the general flow and appearance of our app resemble many other types of map-based apps like Uber or Google Maps, which helps the users figure out how to use the map by common sense. But there were some confusion in the beginning because the users were not familiar with interacting with Figma prototypes. In addition, users had to test our mobile app on a desktop, which can cause some confusion!
 
                     <div className='project-section-title subtitle-1'>
                         <p>User Feedback</p>
