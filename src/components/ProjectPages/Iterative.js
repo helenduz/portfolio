@@ -57,7 +57,7 @@ const Iterative = () => {
                     </div>
                     <p>We were given a list of startup concepts from YCombinator and were asked to design from scratch a UI for one of them. The goal is to make interfaces to solve the same problem the startup is trying to solve, without looking at anything they have already built! AeonCharge, a mobile app that allows EV drivers to seamlessly locate, activate, and pay for charging sessions across various providers in the United States through a single platform, stood out to our team. How can we create an intuitive, usable UI for an EV charging app?</p>
                     <div className='img-container'>
-                        <img src='/pages-assets/iterative/ac-icon.png'></img>
+                        <img src={process.env.PUBLIC_URL + '/pages-assets/iterative/ac-icon.png'}></img>
                     </div>
                 </div>
             </div>
@@ -75,10 +75,10 @@ const Iterative = () => {
                         After forming a concensus on the core objective and functionalities, we individually brainstormed a set of screens that we think are important to the app, and sketched our ideas on paper:
                     </p>
                     <div style={{width:"70%"}}>
-                        <img className='full-width-img' src='/pages-assets/iterative/s-1.png'></img>
-                        <img className='full-width-img' src='/pages-assets/iterative/s-2.png'></img>
-                        <img className='full-width-img' src='/pages-assets/iterative/s-3.png'></img>
-                        <img className='full-width-img' src='/pages-assets/iterative/s-4.png'></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/iterative/s-1.png'}></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/iterative/s-2.png'}></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/iterative/s-3.png'}></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/iterative/s-4.png'}></img>
                     </div> 
                 </div>
             </div>

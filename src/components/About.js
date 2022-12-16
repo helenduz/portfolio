@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="about-main">
             <div className="about-image">
-                <img src="/aboutImage.png"></img>
+                <img src={process.env.PUBLIC_URL + "/aboutImage.png"}></img>
             </div>
             <div className="about-content">
                 <div className="about-text">

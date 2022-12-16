@@ -56,7 +56,7 @@ const Redesign = () => {
                     </div>
                     <p>For this project, I decided to redesign the <a href='https://aps.org/publications/index.cfm' className='in-text-link'>publications</a> page for the American Physical Society (APS). This page lists out the publications (journals, magazines, etc.) that APS hosts. As a former physics major, I frequently used this page as a reference when I had to dig through physics literature. I still remember feeling dazzled by the jarring use of random colors in the journals section when I first visited the site. There were also a few other perplexing elements that I never had the chance to closely analyze - well, here we are!</p>
                     <div className='img-container'>
-                        <img src='/pages-assets/redesign/aps-logo.svg'></img>
+                        <img src={process.env.PUBLIC_URL + '/pages-assets/redesign/aps-logo.svg'}></img>
                     </div>
                     <p>
                         <span className='text-bold'>Note:</span> APS actually went through a website upgrade while I was doing this project! While my project is based on their old page, which can be referenced <a href='https://web.archive.org/web/20220904180253/https://aps.org/publications/index.cfm' className='in-text-link'>here</a> (hosted by WayBackMachine), I also tried to incorporate their new styles into my redesign. It is interesting to see how different our designs turn out to be!
@@ -83,7 +83,7 @@ const Redesign = () => {
                         While there are tradeoffs between these three dimensions, our interface design should still take all of them into consideration. Keeping these ideas in mind, I noted down my thoughts on the APS pubclications page below:
                     </p> 
                     <div>
-                        <img className='full-width-img' src='/pages-assets/redesign/usability.png'></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/usability.png'}></img>
                     </div>
                     <p>
                         The main frustration I had about the website can be summarized in three main points:
@@ -112,7 +112,7 @@ const Redesign = () => {
                         </ul>
                     </p>
                     <div>
-                        <img className='full-width-img' src='/pages-assets/redesign/wave-report.png' style={{width: "70%"}}></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/wave-report.png'} style={{width: "70%"}}></img>
                     </div>                                   
                 </div>
             </div>
@@ -138,15 +138,15 @@ const Redesign = () => {
                         Here are the wireframes I developed for Desktop, Tablet, and Mobile:
                     </p>
                     <div>
-                        <img className='full-width-img' src='/pages-assets/redesign/lofi-1.png'></img>
-                        <img className='full-width-img' src='/pages-assets/redesign/lofi-2.png'></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/lofi-1.png'}></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/lofi-2.png'}></img>
                     </div>
 
                     <div className='project-section-title subtitle-1'>
                         <p>Visual design style guide</p>
                     </div>
                     <p>I then created a visual design style guide to capture the colors, typography, and states of components I expect to use in the interface on Figma. This is helpful for separating my design thinking from the actually development process, as well as encouraging consistent visuals across the page.</p>
-                    <img className='full-width-img' src='/pages-assets/redesign/guide.png' style={{width: "70%"}}></img>
+                    <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/guide.png'} style={{width: "70%"}}></img>
 
                     <div className='project-section-title subtitle-1'>
                         <p>High-Fidelity prototypes</p>
@@ -156,8 +156,8 @@ const Redesign = () => {
                     <p>
                     Here are my high-fidelity prototypes with annotations on elements used, state changes, as well as key layout choices for handling responsiveness:
                     </p>
-                    <img className='full-width-img' src='/pages-assets/redesign/hifi-1.png'></img>
-                    <img className='full-width-img' src='/pages-assets/redesign/hifi-2.png'></img>
+                    <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/hifi-1.png'}></img>
+                    <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/hifi-2.png'}></img>
                     <p>
                         <span className='text-bold'>Note:</span> The footer is just an image I screenshot from the original website after they upgraded their UI, because it fits in quite nicely with my design!
                     </p>
@@ -181,7 +181,7 @@ const Redesign = () => {
                         </ul>
                     </p>
                     <div>
-                        <img className='full-width-img' src='/pages-assets/redesign/preview.png'></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/redesign/preview.png'}></img>
                     </div>                                   
                 </div>
             </div>

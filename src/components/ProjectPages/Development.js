@@ -83,7 +83,7 @@ const Development = () => {
                             <li><span className='text-bold'>React States: </span>Which states should be associated with which components? How can I pass data and callbacks around as props so that they work properly while maintaining good encapsulation?</li>
                             <li><span className='text-bold'>Styling: </span>This was my first time using Material UI and inline styling libraries! Getting used to the design thinking of Material UI (such as the type of containers available) was quite a learning curve. </li>
                             <div className='img-container'>
-                                <img className='full-width-img' src='/pages-assets/development/react-mui.png'></img>
+                                <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/development/react-mui.png'}></img>
                             </div>
                         </ul>
                      </p>
@@ -101,7 +101,7 @@ const Development = () => {
                         The final product is linked <a href='https://nostalgicalpaca202.github.io/development-assignment/' className='in-text-link text-bold'>HERE</a>!
                     </p>
                     <div>
-                        <img className='full-width-img' src='/pages-assets/development/page-top.png'></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/development/page-top.png'}></img>
                     </div>
 
                     <div className='project-section-title subtitle-1'>
@@ -135,7 +135,7 @@ const Development = () => {
                     Here is a breakdown of the props and states of each component in a diagram:
                     </p>
                     <div style={{width: "75%"}}>
-                        <img className='full-width-img' src='/pages-assets/development/component-diagram.jpg'></img>
+                        <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/development/component-diagram.jpg'}></img>
                     </div>
                  </div>
              </div>
