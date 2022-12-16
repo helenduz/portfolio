@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Iterative from './components/ProjectPages/Iterative';
 import Redesign from './components/ProjectPages/Redesign';
+import Development from './components/ProjectPages/Development';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,9 +15,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/iterative" element={<Iterative/>}/>
           <Route path="/redesign" element={<Redesign/>}/>
-          {/* <Route path="/proj-2" element={<ProjectPageComponent2/>}/>
-          <Route path="/proj-3" element={<ProjectPageComponent3/>}/>
-          <Route path="/proj-4" element={<ProjectPageComponent4/>}/> */}
+          <Route path="/development" element={<Development/>}/>
         </Routes>
       </div>
     </BrowserRouter>

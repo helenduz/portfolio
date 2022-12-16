@@ -1,5 +1,4 @@
 import './Redesign.css';
-import Carousel from 'react-bootstrap/Carousel';
 
 const OverviewCard = () => {
     return (
@@ -44,7 +43,7 @@ const Redesign = () => {
                     <h3>
                         Project Overview
                     </h3>
-                    <p>This is a project from CS1300 UIUX at Brown University. The goal of this project was to imitate the workflow of redesigning a website with for better usability and responsiveness. It involved analyzing problems in an existing UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.</p>
+                    <p>This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice redesigning a website with for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.</p>
                 </div>
             </div>
 
@@ -69,11 +68,11 @@ const Redesign = () => {
                 <div className='project-section'>
                     <div className='project-section-title'>
                         <h3>
-                            Identifying Usability Problems
+                            Analyzing Usability Problems
                         </h3>
                     </div>
                     <p>
-                        Usability is a term that describes how easily or effectively a user can accomplish tasks on an interface. While this is a broad term that encompasses a number of goals, it can be interpreted in three main dimensions:
+                        Usability is a term that describes how easily or effectively a user can accomplish tasks on an interface. While this is a broad term that encompasses a number of goals, there are three main aspects to consider:
                         <ul className='text-list'>
                             <li><span className='text-bold'>Learnability: </span>Can new users quickly learn how to use the UI?</li>
                             <li><span className='text-bold'>Memorability: </span>How well can occasional users recall how to use the UI? </li>
@@ -81,7 +80,7 @@ const Redesign = () => {
                         </ul>
                     </p>
                     <p>
-                        While there are tradeoffs between these three dimensions, a usable interface should still take all of them into consideration. Keeping these ideas in mind, I noted down my thoughts on the APS pubclications page below:
+                        While there are tradeoffs between these three dimensions, our interface design should still take all of them into consideration. Keeping these ideas in mind, I noted down my thoughts on the APS pubclications page below:
                     </p> 
                     <div>
                         <img className='full-width-img' src='/pages-assets/redesign/usability.png'></img>
@@ -105,7 +104,7 @@ const Redesign = () => {
                         </h3>
                     </div>
                     <p>
-                        After identifying usability problems, I used the WebAIM WAVE tool to detect accessibility of the website. The findings can be summarized below:
+                        After identifying usability problems, I used the WebAIM WAVE tool to detect accessibility issues of the original website. The main findings are summarized below:
                         <ul className='text-list'>
                             <li>A <span className='text-bold'>redundant link</span> glitch is present under the "Physics Review Journals" section</li>
                             <li>There are a few missing <span className='text-bold'>alternative texts</span> for icons, and the search bar is unlabelled</li>
@@ -174,7 +173,7 @@ const Redesign = () => {
                         </h3>
                     </div>
                     <p>
-                        Finally, I created the reponsive website according to my high-fidelity prototypes. Due to the scope of this project (using only HTML and CSS libraries), some interative elements are not implemented, such as the expanded hamburger menu. Throughout this project, I have learned how to always keep responsiveness in mind when designing websites, as well as applying usability principles I learned in class to real-world designs. Here are a few things that I am hoping to expand on or finish implementing later:
+                        Finally, I created the reponsive website according to my high-fidelity prototypes. Since we were limited to only HTML and CSS libraries in this project, some interative elements are not implemented, such as the expanded hamburger menu. Throughout this project, I have learned how to always keep responsiveness in mind when designing websites, as well as applying usability principles I learned in class to real-world designs. Here are a few things that I am hoping to expand on or finish implementing later:
                         <ul className='text-list'>
                             <li>Make font sizes more responsive - currently, the content in the top pane gets really crowded once we are near the md breakpoint (before the navigation bar, search bar, and other buttons get minimized to the hamburger menu), and overflow/clipping happens</li>
                             <li>Change the accordion's color to match the theme colors - this requires changing SaSS variables in Bootstrap</li>

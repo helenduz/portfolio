@@ -74,72 +74,104 @@ const Iterative = () => {
                     <p>
                         After forming a concensus on the core objective and functionalities, we individually brainstormed a set of screens that we think are important to the app, and sketched our ideas on paper:
                     </p>
-
-                    {/* <Carousel slide={false}>
-                        <Carousel.Item className='carousel-item'>
-                        <img
-                            className='carousel-image'
-                            src='/pages-assets/iterative/s_1-1.jpg'
-                        />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                        <img
-                            className='carousel-image'
-                            src='/pages-assets/iterative/s_1-2.jpg'
-                        />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                        <img
-                            className='carousel-image'
-                            src='/pages-assets/iterative/s_1-3.jpg'
-                        />
-                        </Carousel.Item>
-                    </Carousel> */}
-
-                    
+                    <div style={{width:"70%"}}>
+                        <img className='full-width-img' src='/pages-assets/iterative/s-1.png'></img>
+                        <img className='full-width-img' src='/pages-assets/iterative/s-2.png'></img>
+                        <img className='full-width-img' src='/pages-assets/iterative/s-3.png'></img>
+                        <img className='full-width-img' src='/pages-assets/iterative/s-4.png'></img>
+                    </div> 
                 </div>
             </div>
 
             <div className='bg-emphasis project-section-container'>
-                <p>Takeaways</p>
+                <p style={{margin: "3em"}}>
+                    Here is a summary of the common themes among our sketches:
+                    <ul className='text-list'>
+                        <li>A home page that displays a map and locations of charging stations</li>
+                        <li>Each charging station has its own page that contains relevant information</li>
+                        <li>A payment page for selecting payment methods, and/or information about current order</li>
+                        <li>Some dashboard page/section that allows users to access their past orders and other settings</li>
+                    </ul>
+                </p>
             </div>
             
+            <div className='bg-light project-section-container'>
+                <div className='project-section'>
+                    <div className='project-section-title'>
+                        <h3>
+                            Mockups & Iteration
+                        </h3>
+                    </div>
+                    <p>Afterwards, we developed low-fidelity wireframes in Balsalmiq and high-fidelity prototypes in Figma incorporating the ideas we developed from our sketches. We received feedbacks from peer critiques on our first high-fidelity prototype draft. It was interesting to see what we tend to overlook as the designers - comments were centered around two main aspects, the flow between different screens and styling problem. Some of the comments include:
+                    <ul className='text-list'>
+                            <li>"Confusing icons - users won't know what they are for at first sight!"</li>
+                            <li>"There should be a confirmation page, or a page showing the current order, after you pay"</li>
+                            <li>"Back buttons to home page exist on some screens but not others"</li>
+                            <li>"There is no clear indication of how you can go back to the home page once you are at the station's info page, other than clicking on the map"</li>
+                        </ul>
+                    Our second iteration addressed these problems and produced a final prototype shown below. 
+                    </p>
+                    <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)", width:"65%", height: "600px", marginTop:"2.5em"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHgK9YGWBPvZjtFGUm1Ih4Z%2Faeoncharge%3Fnode-id%3D100%253A154%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D100%253A154" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div className='project-section-container'>
+                <div className='project-section'>
+                    <div className='project-section-title'>
+                        <h3>
+                            User Testing
+                        </h3>
+                    </div>
+                    <div className='project-section-title subtitle-1'>
+                        <p>Summary</p>
+                    </div>
+
+                    <p>We then submitted our prototypes to UserTesting.com for three different users. We found that the user experience was mostly what we expected - the general flow and appearance of our app resemble many other types of map-based apps like Uber or Google Maps, which helps the users figure out how to user the map by common sense. But there were some confusion in the beginning because the users were not familiar with interacting with Figma prototypes. In addition, users had to test our mobile app on a desktop, which can cause some confusion!
+
+                    <div className='project-section-title subtitle-1'>
+                        <p>User Feedback</p>
+                    </div>
+
+                        <p className='text-bold'>Pros</p>
+                        <ul className='text-list'>
+                            <li>"I like that I can find charging stations on the map very clear."</li>
+                            <li>"Very clean, simple and easy to use interface. Looks professional."</li>
+                            <li>"New, and offering great data."</li>
+                            <li>"The personal settings interface is clear and straightforward, and the hamburger button helps a lot."</li>
+                        </ul>
+                        <p className='text-bold'>Cons</p>
+                        <ul className='text-list'>
+                            <li>"It is not clear that estimate total would work, because there is no way to determine the actual amount (but the amount depends on the time)."</li>
+                            <li>"On the search page it would be nice if it could display a numeric sort on the left."</li>
+                            <li>"The order in progress is not visible enough to encourage users to click"</li>
+                        </ul>
+                        <p className='text-bold'>Possible Improvements</p>
+                        <ul className='text-list'>
+                            <li>"The search results screen should display the sorted number of each charging station."</li>
+                            <li>"The filter should also offer a choice of whether there is a deal or not."</li>
+                            <li>"The coupon button is not obvious, try to change it to the mailbox message button and put the offer push inside, while also receiving other messages!"</li>
+                            <li>"The ongoing charging button does not determine if there is an ongoing order, which is more obvious by using a small red-circled number on the side."</li>
+                            <li>"Consider placing the ongoing charging in the lower left corner and the app logo in place."</li>
+                            <li>"The search bar could be larger for users to use while driving."</li>
+                            <li>"The pins on the map should provide thumbnail information when clicked."</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div className='bg-light project-section-container'>
+                 <div className='project-section'>
+                    <div className='project-section-title'>
+                        <h3>
+                            Takeaways
+                        </h3>
+                    </div>
+                    <p>This project helped me understand that even in a 4-person design team, you could still overlook many usability decisions of your design! Through critiques and user testing, we were able to iterate on our prototypes and keep improving our solution, which we then sent to the AeonCharge Team! (We still have not heard back from them, however :/)</p>
+                 </div>
+             </div>
+
        </div>
     );
 };
 
 export default Iterative;
-
-
-
-
-
-
-
-function NoTransitionExample() {
-    return (
-      <Carousel slide={false}>
-        <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='/pages-assets/iterative/s_1-1.jpg'
-            alt='First slide'
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='holder.js/800x400?text=Second slide&bg=282c34'
-            alt='Second slide'
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='holder.js/800x400?text=Third slide&bg=20232a'
-            alt='Third slide'
-          />
-        </Carousel.Item>
-      </Carousel>
-    );
-  }
