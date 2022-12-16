@@ -128,11 +128,12 @@ const Development = () => {
                     There are three main components in the app:
                         <ul className='text-list'>
                             <li>A side bar that contains all the buttons for sorting and filtering</li>
-                            <li>A side bar that contains all the buttons for sorting and filtering</li>
+                            <li>A top bar that contains the title, the button to switch to My Playlist, and the aggregator (showing the total number of tracks and total duration of all the songs in My Playlist). The aggregator is packaged into its own component</li>
                             <li>A component that contains information about each song/track, including the image, name, popularity, etc.</li>
                         </ul>
-
-                    Here is a breakdown of the props and states of each component in a diagram:
+                        <p>
+                        Here is a breakdown of the props and states of each component in a diagram:
+                        </p>
                     </p>
                     <div style={{width: "75%"}}>
                         <img className='full-width-img' src={process.env.PUBLIC_URL + '/pages-assets/development/component-diagram.jpg'}></img>
@@ -147,7 +148,7 @@ const Development = () => {
                             Takeaways
                         </h3>
                     </div>
-                    <p>I had a lot of fun in this project! Decomposing a simple interactive interface into components based on what states they should each have can challenging. Passing data and callbacks around components in React requires a deep understanding on how the app functions and how different states relate to each other!</p>
+                    <p>I had a lot of fun in this project! Decomposing a simple interactive interface into components based on what states they should each have can be challenging. Passing data and callbacks around components in React requires a deep understanding on how the app functions and how different states relate to each other!</p>
                  </div>
              </div>
         </div>
