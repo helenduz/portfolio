@@ -5,11 +5,11 @@ import Iterative from './components/ProjectPages/Iterative';
 import Redesign from './components/ProjectPages/Redesign';
 import Development from './components/ProjectPages/Development';
 import Personas from './components/ProjectPages/Personas';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename='process.env.PUBLIC_URL'>
       <div className="app">
         <Header />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/personas" element={<Personas/>}/>
         </Routes>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
