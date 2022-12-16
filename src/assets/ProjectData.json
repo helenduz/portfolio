@@ -6,15 +6,21 @@
         "pathName": "/iterative"
     },
     {
-        "name": "Project 2",
-        "summary": "This is a project I did for some random class. Project description goes here.",
-        "stack": ["React", "Material UI"],
-        "pathName": "/"
+        "name": "Responsive Redesign: APS Publications Page",
+        "summary": "This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice redesigning a website with for better usability and responsiveness. The process involves analyzing problems in a public UI, creating low-fidelity and high-fidelity prototypes for different screen sizes, and using HTML/CSS to code up a website based on the prototypes.",
+        "stack": ["Figma", "Balsalmiq", "HTML/CSS", "Bootstrap"],
+        "pathName": "/redesign"
     },
     {
-        "name": "Project 3",
-        "summary": "This is a project I did for some random class. Project description goes here.",
-        "stack": ["React", "Flask", "GraphQL", "SQL"],
-        "pathName": "/"
+        "name": "Interactive Interface Development: Spotify Top 100 Songs List",
+        "summary": "This is a project from CS1300 UIUX at Brown University. The goal of the project is to practice developing interactive interfaces using React, especially the use of components, states, and props!",
+        "stack": ["React", "HTML/CSS", "Material UI"],
+        "pathName": "/development"
+    },
+    {
+        "name": "Personas and Storyboarding: Ordering Kiosk Interface",
+        "summary": "This is a project from CS1300 UIUX at Brown University. The goal of this project was to practice the classic UX research workflow: observe real users interacting with an interface, interview these individuals about their experiences, create personas based on these users, and illustrate a storyboard for the personas. How do you step into a user's shoes? This was the first project that got me started in thinking about usability!",
+        "stack": ["UX Research"],
+        "pathName": "/personas"
     }
 ]

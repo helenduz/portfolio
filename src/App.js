@@ -4,11 +4,12 @@ import Home from './components/Home';
 import Iterative from './components/ProjectPages/Iterative';
 import Redesign from './components/ProjectPages/Redesign';
 import Development from './components/ProjectPages/Development';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Personas from './components/ProjectPages/Personas';
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Header />
         <Routes>
@@ -16,9 +17,10 @@ function App() {
           <Route path="/iterative" element={<Iterative/>}/>
           <Route path="/redesign" element={<Redesign/>}/>
           <Route path="/development" element={<Development/>}/>
+          <Route path="/personas" element={<Personas/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

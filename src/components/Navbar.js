@@ -10,11 +10,11 @@ const Navbar = () => {
                 Projects
             </Link>
         </li>
-        <li className='nav__list-item'>
+        {/* <li className='nav__list-item'>
             <Link to='/' className='link link--nav'>
               Skills
             </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )
