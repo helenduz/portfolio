@@ -32,7 +32,7 @@
 }
 
 .overview-card {
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
