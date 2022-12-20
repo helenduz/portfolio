@@ -1,4 +1,5 @@
 import './App.css';
+import ScrollToTop from './components/ScrollToTop';
 import Header from './components/Header';
 import Home from './components/Home';
 import Iterative from './components/ProjectPages/Iterative';
@@ -10,6 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
       <div className="app">
         <Header />
         <Routes>
