@@ -6,11 +6,12 @@ import Iterative from './components/ProjectPages/Iterative';
 import Redesign from './components/ProjectPages/Redesign';
 import Development from './components/ProjectPages/Development';
 import Personas from './components/ProjectPages/Personas';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
+    {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
       <ScrollToTop />
       <div className="app">
         <Header />
@@ -22,7 +23,8 @@ function App() {
           <Route path="/personas" element={<Personas/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
+    </HashRouter>
   );
 }
 
