@@ -7,7 +7,7 @@ const Header = () => {
     <header className='header center'>
       <h3>
         <Link to="/" className='link'>
-            Anonymous
+            Helen Du
         </Link>
       </h3>
       <Navbar />

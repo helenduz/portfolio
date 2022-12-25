@@ -10,7 +10,7 @@ const About = () => {
             <div className="about-content">
                 <div className="about-text">
                     <h1>
-                        Hi there! This is <span className='about-name'>Anonymous -</span>
+                        Hi there! This is <span className='about-name'> <br /> Helen - </span>
                     </h1>
                     <br />
                     <h2>
@@ -22,19 +22,19 @@ const About = () => {
                 </div>
                 <div className="about-contacts">
                     <div>
-                        <a href="">
+                        <a href={process.env.PUBLIC_URL + "/Helen_Du_Resume.pdf"} download>
                             <span type='button' className='btn btn--outline'>
                             Resume
                             </span>
                         </a>
                     </div>
                     <div className="about-contacts-icon">
-                        <a href="https://github.com/" className="link link--icon">
+                        <a href="https://github.com/helenduz" className="link link--icon">
                             <div><i class="fa-brands fa-github fa-2xl"></i></div>
                         </a>
                     </div>
                     <div className="about-contacts-icon">
-                        <a href="https://www.linkedin.com/" className='link link--icon'>
+                        <a href="https://www.linkedin.com/in/zhonghui-helen-du/" className='link link--icon'>
                             <div><i class="fa-brands fa-linkedin fa-2xl"></i></div>
                         </a>
                     </div>
