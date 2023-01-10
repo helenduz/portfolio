@@ -10,18 +10,20 @@ const ProjectCard = (props) => {
     
     return (
         <div className='project-card'>
-            <h3 className='project-title'>
-                <Link to={pathName} className='link'>
-                    {name}
-                </Link>
-            </h3>
-    
-            <p className='project-summary'>{summary}</p>
+            <Link to={pathName}>
+            <div>
+                <h3 className='project-title link'>
+                        {name}
+                </h3>
+        
+                <p className='project-summary'>{summary}</p>
 
-            <ul className='project-stack'>
-            {stack.map((el) => (<li className='project-stack-item'>{el}</li>))}
-            </ul>
-    </div>
+                <ul className='project-stack'>
+                {stack.map((el) => (<li className='project-stack-item'>{el}</li>))}
+                </ul>
+            </div>
+            </Link>
+        </div>
     );
 };
 
